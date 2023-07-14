@@ -4,9 +4,9 @@ spring:
     application:
         name: fraud
     datasource:
-        password: password
         url: jdbc:postgresql://localhost:5432/fraud
-        username: amigoscode
+        username: sglo
+        password: sglo
     jpa:
         hibernate:
             ddl-auto: create-drop
@@ -24,3 +24,4 @@ eureka:
       defaultZone: http://localhost:8761/eureka
     fetch-registry: true
     register-with-eureka: true
+    enabled: false
